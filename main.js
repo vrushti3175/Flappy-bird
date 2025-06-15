@@ -36,9 +36,9 @@ var PipeDownClass = new Phaser.Class({
 let game = new Phaser.Game(config);
 
 function preload() {
-    this.load.image("pipeUp", "assets/pipeUp.png");
-    this.load.image("pipeDown", "assets/pipeDown.png");
-    this.load.spritesheet('bird', "assets/birdsprite.png",{
+    this.load.image("pipeUp", "pipeUp.png");
+    this.load.image("pipeDown", "pipeDown.png");
+    this.load.spritesheet('bird', "birdsprite.png",{
         frameWidth: 81, frameHight: 81
     });
 }
